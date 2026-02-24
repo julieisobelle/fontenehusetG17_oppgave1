@@ -1,0 +1,96 @@
+/* 
+CSS Selector = hva skal vi endre? header
+CSS Declaration = blokken hvor koden finnes {}
+CSS Rule = hva og hvordan skal ting endres property:value; display:flex; */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroIntro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.heroText {
+  background-color: #e3c4be;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroImg {
+  width: 25%;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTextContainer,
+.aboutImgContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.aboutText {
+  background-color: lightblue;
+  width: 300px;
+  padding: 40px;
+}
+
+.aboutImg {
+  width: 100%;
+}
+
+.aboutImgText {
+  font-size: 12px;
+  font-style: italic;
+  margin: 6px;
+}
+
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
