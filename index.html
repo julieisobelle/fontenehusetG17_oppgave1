@@ -12,7 +12,7 @@
       <h2>JH</h2>
 
       <nav>
-        <ul>
+        <ul class="navList">
           <li>Hjem</li>
           <li>Om meg</li>
           <li>Prosjekter</li>
@@ -74,31 +74,43 @@
       <section class="projects">
         <h2 class="projectsTitle">Prosjekter</h2>
 
-        <ol class="projectsList">
+        <ul class="projectsList">
           <li>
-            <a
-              href="https://github.com/julieisobelle/fontenehusetG17_undervisning1"
-              target="_blank">
-              Github: Undervisning 1: Introduksjon kurset
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://github.com/julieisobelle/fontenehusetG17_undervisning2"
-              target="_blank">
-              Github: Undervisning 2: Intoduksjon HTML og semantisk HTML
+            <div class="projectCard">
+              <h3 class="bottomLine">Undervisning 1: Introduksjon kurset</h3>
+              <img src="images/undervisning1.png" alt="">
+              <a
+                href="https://github.com/julieisobelle/fontenehusetG17_undervisning1"
+                target="_blank">
+                Gå til github
               </a>
+            </div>
           </li>
 
           <li>
-            <a
-              href="https://github.com/julieisobelle/fontenehusetG17_undervisning3"
-              target="_blank">
-              Github: Undervisning 3: Intoduksjon CSS og CSS Flexbox
-            </a>
+            <div class="projectCard">
+              <img class="bottomLine" src="images/undervisning2.png" alt="Skjermbilde av nettside">
+              <h3>Undervisning 2: Introduksjon HTML og semantisk HTML</h3>
+              <a
+                href="https://github.com/julieisobelle/fontenehusetG17_undervisning2"
+                target="_blank">
+                Gå til github
+              </a>
+            </div>
           </li>
-        </ol>
+
+          <li>
+            <div class="projectCard">
+              <h3>Undervisning 3: Introduksjon CSS og CSS Flexbox</h3>
+              <a
+                href="https://github.com/julieisobelle/fontenehusetG17_undervisning3"
+                target="_blank">
+                Gå til github
+              </a>
+              <img class="topLine" src="images/undervisning3.png" alt="">
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
